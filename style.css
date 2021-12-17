@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(circle, rgb(0, 183, 255) 0%, rgb(68, 218, 255) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock {
+    height: 500px;
+    width: 500px;
+    background: rgb(68, 58, 58);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.63) 0 10px 50px;
+}
+
+.inner-clock {
+    height: 420px;
+    width: 420px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.63) 0 0 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(68, 58, 58);
+    border-radius: 50%;
+    z-index: 2
+}
+
+.pointer1 {
+    width: 6px;
+    height: 120px;
+    background: rgb(197, 33, 33);
+    position: absolute;
+    top: 90px;
+    left: 170px;
+    border-radius: 20px;
+    transform: rotate(-30deg);
+}
+
+.pointer2 {
+    width: 6px;
+    height: 80px;
+    background: rgb(38, 83, 230);
+    position: absolute;
+    top: 195px;
+    left: 165px;
+    border-radius: 20px;
+    transform: rotate(-120deg);
+}
+
+.pointer3 {
+    width: 4px;
+    height: 100px;
+    background: rgb(29, 219, 140);
+    position: absolute;
+    top: 120px;
+    right: 180px;
+    border-radius: 20px;
+    transform:rotate(30deg);
+}
+
+.sticks div {
+    background: rgb(68, 58, 58);
+    position: absolute;
+}
+
+.inner-clock .stick1 {
+    width: 40px;
+    height: 8px;
+    right: 0;
+    top: 205px;
+}
+
+.inner-clock .stick2 {
+    width: 40px;
+    height: 8px;
+    left: 0;
+    top: 205px;
+}
+
+.inner-clock .stick3 {
+    width: 8px;
+    height: 40px;
+    top: 0;
+    right: 205px;
+}
+
+.inner-clock .stick4 {
+    width: 8px;
+    height: 40px;
+    bottom: 0;
+    right: 205px;
+}
+
+.inner-clock .stick5 {
+    width: 4px;
+    height: 30px;
+    transform: rotate(30deg);
+    top: 26px;
+    right: 110px;
+}
+
+.inner-clock .stick6 {
+    width: 4px;
+    height: 30px;
+    transform: rotate(60deg);
+    top: 102px;
+    right: 36px;
+}
+
+.inner-clock .stick7 {
+    width: 4px;
+    height: 30px;
+    transform: rotate(150deg);
+    bottom: 26px;
+    right: 110px;
+}
+
+.inner-clock .stick8 {
+    width: 4px;
+    height: 30px;
+    transform: rotate(120deg);
+    bottom: 102px;
+    right: 36px;
+}
+
+.inner-clock .stick9 {
+    width: 4px;
+    height: 30px;
+    transform: rotate(210deg);
+    bottom: 26px;
+    left: 110px;
+}
+
+.inner-clock .stick10 {
+    width: 4px;
+    height: 30px;
+    transform: rotate(240deg);
+    bottom: 102px;
+    left: 36px;
+}
+
+.inner-clock .stick11 {
+    width: 4px;
+    height: 30px;
+    transform: rotate(330deg);
+    top: 26px;
+    left: 110px;
+}
+
+.inner-clock .stick12 {
+    width: 4px;
+    height: 30px;
+    transform: rotate(300deg);
+    top: 102px;
+    left: 36px;
+}
