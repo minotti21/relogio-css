@@ -1,7 +1,7 @@
 
 # Relógio
 
-Relógio não funcional feito com o intuito de treinar os conceitos de CSS aprendidos.
+Relógio não funcional feito com o intuito de colocar em prática os conceitos de CSS aprendidos
 
 
 ## Stack utilizada
